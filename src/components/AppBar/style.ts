@@ -11,12 +11,13 @@ export const AppBar = styled(Box)<BoxProps>`
 
   padding-top: 2em;
 
-  height: 180px;
   max-width: 1366px;
 `
 
 export const TopBox = styled(Box)<BoxProps>`
   display: flex;
+
+  padding-bottom: 20px;
 
   justify-content: center;
   align-items: center;
