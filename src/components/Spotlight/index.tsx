@@ -11,6 +11,7 @@ import {
   BoxMain,
   BoxText,
   Container,
+  ContainerImg,
 } from './style'
 
 import Button from '../Button'
@@ -28,7 +29,6 @@ export default function SpotLight(){
   return(
     <BoxMain>
       <BoxImage>
-
         <BoxText>
           <Container>
             <Text variant='titleBold'>Lançamentos</Text>
@@ -43,37 +43,35 @@ export default function SpotLight(){
           <Container marginTop='60px'>
             <Text variant='span'>Grandes ofertas!</Text>
           </Container>
-
-
         </BoxText>
 
         <CardImages>
-          <Container marginRight='16px'>
-            <img src={Oferta1} width='220px' />
-          </Container>
+          <ContainerImg>
+            <img src={Oferta1}/>
+          </ContainerImg>
 
-          <Container marginRight='16px'>
-            <img src={Oferta2} width='220px' />
-          </Container>
+          <ContainerImg >
+            <img src={Oferta2}/>
+          </ContainerImg>
 
-          <Container>
-            <img src={Oferta3} width='220px' />
-          </Container>
+          <ContainerImg>
+            <img src={Oferta3}/>
+          </ContainerImg>
         </CardImages>
 
-        <Container marginTop='6em'>
-          <img src={Oferta4} width='1366px' />
-        </Container>
+        <ContainerImg marginTop='8em'>
+          <img src={Oferta4} />
+        </ContainerImg>
 
-        <Container marginTop='6em' marginLeft='8em'>
-          <Container marginRight='24px'>
-            <img src={Oferta5} width='320px' />
-          </Container>
-          <Container>
-            <img src={Oferta6} width='600px' />
-          </Container>
-        </Container>
+        <Container marginTop='6em' marginLeft='6em' width='75%' justifyContent='space-around'>
+          <ContainerImg>
+            <img src={Oferta5} />
+          </ContainerImg>
 
+          <ContainerImg>
+            <img src={Oferta6}/>
+          </ContainerImg>
+        </Container>
       </BoxImage>
     </BoxMain>
 
