@@ -17,11 +17,23 @@ const variants = {
       borderRadius: '4px',
     },
 
+    cart: {
+      bg: '#5f22a8',
+
+      minWidth: '80px',
+      minHeight: '40px',
+
+      borderColor: '#5f22a8',
+      borderRadius: '4px',
+
+      justifyContent: 'space-around',
+    },
+
     secondary: {
       bg: '#FFF',
       border: 'none',
 
-      maxWidth: '90px',
+      width: '230px',
       padding: '2px',
       marginLeft: '14px',
 
@@ -44,12 +56,16 @@ const variants = {
 }
 
 export const ButtonStyled = styled('button')<ButtonProps>({
-    maxHeight: '60px',
-    margin: '2px',
+  maxHeight: '60px',
+  margin: '2px',
 
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    textAlign: 'center',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  textAlign: 'center',
+
+  '&:hover': {
+    background: "#8846d8",
+  },
 },
 variant(variants))

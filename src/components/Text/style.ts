@@ -12,13 +12,13 @@ const variants = {
 
     primaryBold: {
       fontSize: '18px',
-      fontWeight: 'bold'
+      fontWeight: '400'
     },
 
     secondary: {
       fontSize: '18px',
       color: '#5f22a8',
-      fontWeight: 'bold'
+      fontWeight: '560'
     },
 
     title: {
@@ -37,6 +37,7 @@ const variants = {
     link: {
       fontSize: '14px',
       color: '#e9f7df',
+      fontWeight: '700',
     }
   }
 }
