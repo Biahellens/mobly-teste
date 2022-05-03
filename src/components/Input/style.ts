@@ -10,7 +10,7 @@ const variants = {
     primary: {
       width: '220px',
       minHeight: '40px',
-      bg: '#e9f7df',
+      bg: '#e0e7e0',
       color: 'black',
     },
   }
@@ -21,7 +21,7 @@ export const InputStyled = styled('input')<InputProps>(
     fontSize: '14px',
     padding: 'm',
 
-    borderColor: '#e9f7df',
+    borderColor: '#e0e7e0',
     borderRadius: '2px',
 
     boxSizing: 'border-box',
@@ -30,7 +30,7 @@ export const InputStyled = styled('input')<InputProps>(
     marginRight: '10px',
 
     '&:hover': {
-      background: "#e0e7e0",
+      background: "#e9f7df",
     },
   },
 variant(variants))

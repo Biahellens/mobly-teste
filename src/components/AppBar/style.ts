@@ -32,6 +32,7 @@ export const LowBox = styled(Box)<BoxProps>`
   justify-content: center;
   align-items: center;
 
+  height: 60px;
   width: 1366px;
 
   border-top: 1px solid #dbdbdb;
