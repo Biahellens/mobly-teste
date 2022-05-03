@@ -1,7 +1,7 @@
 //dependecies
 
 //conponentes
-import { ResponsiveAppBar } from '../../components'
+import { ResponsiveAppBar, Launch, SpotLight } from '../../components'
 
 import { Container, Wrapper } from './style'
 
@@ -12,6 +12,12 @@ export function Home(){
     <Wrapper>
       <Container>
         <ResponsiveAppBar />
+      </Container>
+      <Container>
+        <SpotLight />
+      </Container>
+      <Container>
+        <Launch />
       </Container>
     </Wrapper>
   )
