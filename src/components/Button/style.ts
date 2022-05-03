@@ -51,6 +51,18 @@ const variants = {
 
       flexWrap: 'wrap',
 
+    },
+
+    dark: {
+      bg: '#007693',
+
+      Width: '100px',
+      minHeight: '30px',
+
+      borderColor: '#007693',
+      borderRadius: '4px',
+
+      justifyContent: 'center',
     }
   }
 }
