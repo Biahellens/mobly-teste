@@ -27,10 +27,22 @@ const variants = {
       fontWeight: 'bold',
     },
 
+    titleBold: {
+      fontSize: '70px',
+      color: '#1a253b',
+      fontWeight: 'bold',
+    },
+
+    span: {
+      fontSize: '14px',
+      color: '#1a253b',
+      fontWeight: 'bold',
+    },
+
     input: {
       fontSize: '14px',
       color: '#414141',
-      fontWeight: '200',
+      fontWeight: '100',
 
     },
 
