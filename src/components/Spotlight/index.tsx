@@ -1,9 +1,6 @@
 //dependencies
 import * as React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faCaretDown ,faPhoneVolume, faUser, faHeart } from '@fortawesome/free-solid-svg-icons'
-
 //components
 import {
   CardImages,
@@ -63,7 +60,7 @@ export default function SpotLight(){
           <img src={Oferta4} />
         </ContainerImg>
 
-        <Container marginTop='6em' marginLeft='6em' width='75%' justifyContent='space-around'>
+        <Container marginTop='6em' marginLeft='6em' width='73%' justifyContent='space-around'>
           <ContainerImg>
             <img src={Oferta5} />
           </ContainerImg>
